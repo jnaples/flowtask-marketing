@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
 import { Container } from '@/components/Container'
+import backgroundImage from '@/public/background-faqs.jpg'
 import avatarImage1 from '@/public/avatars/avatar-1.png'
 import avatarImage2 from '@/public/avatars/avatar-2.png'
 import avatarImage3 from '@/public/avatars/avatar-3.png'
@@ -11,19 +12,19 @@ const testimonials = [
   [
     {
       content:
-        'TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        'Our team moves fast and is usually trying to do everything at once. FlowTask helped us focus on one campaign at a time. My team’s results have improved, and I’m hitting deadlines without feeling overwhelmed.',
       author: {
-        name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
+        name: 'Emily Harper',
+        role: 'Marketing Director',
         image: avatarImage1,
       },
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+        'Switching to single-tasking changed everything. I can focus on one design at a time, which has made my projects cleaner and more efficient.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'Jake Kemble',
+        role: 'UX Designer',
         image: avatarImage4,
       },
     },
@@ -31,19 +32,19 @@ const testimonials = [
   [
     {
       content:
-        'The best part about TaxPal is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
+        "I was usually overwhelmed with our team's task management software and juggling a million projects at once. Now, I complete each project faster with zero distractions.",
       author: {
-        name: 'Leland Kiehn',
-        role: 'Founder of Kiehn and Sons',
+        name: 'Andrew Zhang',
+        role: 'Software Engineer',
         image: avatarImage5,
       },
     },
     {
       content:
-        'There are so many things I had to do with my old software that I just don’t do at all with TaxPal. Suspicious but I can’t say I don’t love it.',
+        'FlowTask helped me stop multitasking during my workday. I now prioritize one thing at a time, making me more present, focused, and a top performer.',
       author: {
-        name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
+        name: 'Shawn Dosal',
+        role: 'VP of Sales',
         image: avatarImage2,
       },
     },
@@ -51,19 +52,19 @@ const testimonials = [
   [
     {
       content:
-        'I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.',
+        'As a CEO, managing a ton of things was draining. Now, I focus on one thing at a time, and it’s been a game-changer for my productivity.',
       author: {
-        name: 'Peter Renolds',
-        role: 'Founder of West Inc',
+        name: 'Benjamin Jennes',
+        role: 'CEO',
         image: avatarImage3,
       },
     },
     {
       content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
+        'Running a business is hectic, but now I can focus on one task at a time. It’s helped me become less stressed and stay on track.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'Brittany Daugherty',
+        role: 'Business Owner',
         image: avatarImage4,
       },
     },
@@ -88,12 +89,11 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Loved by businesses worldwide.
+            How busy professionals are getting more done with less stress
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
+            Discover how FlowTask is helping professionals simplify their
+            workflow, stay in control, and finish projects faster.
           </p>
         </div>
         <ul

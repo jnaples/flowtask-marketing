@@ -14,27 +14,27 @@ import screenshotVatReturns from '@/public/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Add your tasks',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      'Easily input tasks, from quick to-dos to important work projects, all in one place by clicking the plug sign.',
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Organize your tasks',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      'Rearrange your tasks by priority with a simple drag-and-drop interface to keep your focus in check.',
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Enter focus mode',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+      "Toggle between seeing your entire list or focusing on just one task at a time, designed for an uninterrupted workflow.",
     image: screenshotVatReturns,
   },
   {
-    title: 'Reporting',
+    title: 'Mark tasks complete',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
+      'Watch your momentum towards success soar, all while staying focused and less stressed.',
     image: screenshotReporting,
   },
 ]
@@ -72,13 +72,13 @@ export function PrimaryFeatures() {
         unoptimized
       />
       <Container className="relative">
-        <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
+        <div className="flex max-w-3xl flex-col items-center text-center md:mx-auto">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            The only tool you need to work smarter and achieve more
           </h2>
-          <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+          <p className="mt-6 max-w-2xl text-lg tracking-tight text-blue-100">
+            Say goodbye to chaos and hello to clarity. Get organized, stay
+            focused, and become the top performer you’re meant to be.
           </p>
         </div>
         <TabGroup

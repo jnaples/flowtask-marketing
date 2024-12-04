@@ -102,60 +102,51 @@ export function Pricing() {
       className="bg-slate-900 py-20 sm:py-32"
     >
       <Container>
-        <div className="md:text-center">
+        <div className="mx-auto max-w-3xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
+            Ready to achieve{' '}
             <span className="relative whitespace-nowrap">
-              <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400" />
-              <span className="relative">Simple pricing,</span>
-            </span>{' '}
-            for everyone.
+              <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-600" />
+              <span className="relative">big results?</span>
+            </span>
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            It doesn’t matter what size your business is, our software won’t
-            work well for you.
+            Start today and see the difference.
+            <br />
+            $5/month or $48/year—cancel anytime. <br />
+            Risk-free, 30-day money-back guarantee.
           </p>
         </div>
-        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
+        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-2 xl:mx-0 xl:gap-x-8">
           <Plan
-            name="Starter"
-            price="$9"
-            description="Good for anyone who is self-employed and just getting started."
+            name="Monthly plan"
+            price="$5/month"
+            description="Pay as you go."
             href="/register"
             features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
+              'Focused workflow – Eliminate distractions',
+              'Easy task management – Drag-and-drop organization',
               'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
+              'Customizable views – See one task at a time',
+              'Built for productivity – Simple, calm interface',
+              'Dark mode and light mode',
+              'Affordable pricing – Try it 30 days risk-free, money-back guarantee and cancel any time',
             ]}
           />
           <Plan
             featured
-            name="Small business"
-            price="$15"
-            description="Perfect for small / medium sized businesses."
+            name="Yearly plan (save 20%)"
+            price="$48/year"
+            description="Pay once for the year and save big."
             href="/register"
             features={[
-              'Send 25 quotes and invoices',
-              'Connect up to 5 bank accounts',
-              'Track up to 50 expenses per month',
-              'Automated payroll support',
-              'Export up to 12 reports',
-              'Bulk reconcile transactions',
-              'Track in multiple currencies',
-            ]}
-          />
-          <Plan
-            name="Enterprise"
-            price="$39"
-            description="For even the biggest enterprise companies."
-            href="/register"
-            features={[
-              'Send unlimited quotes and invoices',
-              'Connect up to 15 bank accounts',
-              'Track up to 200 expenses per month',
-              'Automated payroll support',
-              'Export up to 25 reports, including TPS',
+              'Focused workflow – Eliminate distractions',
+              'Easy task management – Drag-and-drop organization',
+              'Track up to 15 expenses per month',
+              'Customizable views – See one task at a time',
+              'Built for productivity – Simple, calm interface',
+              'Dark mode and light mode',
+              'Affordable pricing – Try it 30 days risk-free, money-back guarantee and cancel any time',
             ]}
           />
         </div>
