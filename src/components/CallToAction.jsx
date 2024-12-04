@@ -28,7 +28,7 @@ export function CallToAction() {
             today with FlowTask and experience less stress, more focus, and
             better results in your work and life.
           </p>
-          <Button href="/register" color="white" className="mt-10">
+          <Button href="#pricing" color="white" className="mt-10">
             Get started now
           </Button>
         </div>
