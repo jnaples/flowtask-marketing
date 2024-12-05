@@ -27,12 +27,11 @@ export function Hero() {
         </span>
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Organize your tasks for maximum productivity and get more done by
-        prioritizing one thing at a time with a tool built for single-tasking
-        success.
+        Discover your most productive self—easily prioritize your workday, stay
+        focused, and get more done with the #1 rated productivity app.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Get started today</Button>
+        <Button href="#pricing">Get started today</Button>
         <Button href="#features" variant="outline">
           See how it works
         </Button>
