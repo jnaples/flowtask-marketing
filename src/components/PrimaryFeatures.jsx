@@ -7,12 +7,6 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/public/background-features.jpg'
-import backgroundImageCard from '@/public/background-faqs.jpg'
-
-import screenshotExpenses from '@/public/screenshots/expenses.png'
-import screenshotPayroll from '@/public/screenshots/payroll.png'
-import screenshotReporting from '@/public/screenshots/reporting.png'
-import screenshotVatReturns from '@/public/screenshots/vat-returns.png'
 
 const features = [
   {
@@ -143,7 +137,7 @@ export function PrimaryFeatures() {
                     </div>
                     <div className="relative mt-10 w-[45rem] overflow-hidden rounded-4xl bg-slate-200 px-14 py-16 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
                       <video
-                        className="w-full rounded-xl shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10"
+                        className="w-full rounded-xl shadow-xl shadow-slate-900/10 ring-1 ring-slate-500/10"
                         src={feature.image}
                         alt={feature.title}
                         priority
