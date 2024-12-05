@@ -14,28 +14,28 @@ const features = [
     description:
       'Easily input tasks, from quick to-dos to important work projects, all in one place by clicking the plug sign.',
     image:
-      'https://ztapizhpkhbgxursjezd.supabase.co/storage/v1/object/public/marketing-site/step%201%202k.mov',
+      'https://ztapizhpkhbgxursjezd.supabase.co/storage/v1/object/public/marketing-site/step%201.mp4?t=2024-12-05T20%3A37%3A33.567Z',
   },
   {
     title: 'Organize your tasks',
     description:
       'Rearrange your tasks by priority with a simple drag-and-drop interface to keep your focus in check.',
     image:
-      'https://www.kaseya.com/wp-content/themes/kaseyacom/assets/svgs/truesync-edr-events.webm',
+      'https://ztapizhpkhbgxursjezd.supabase.co/storage/v1/object/public/marketing-site/step%201.mp4?t=2024-12-05T20%3A37%3A33.567Z',
   },
   {
     title: 'Enter focus mode',
     description:
       'Toggle between seeing your entire list or focusing on just one task at a time, designed for an uninterrupted workflow.',
     image:
-      'https://www.kaseya.com/wp-content/themes/kaseyacom/assets/svgs/truesync-edr-events.webm',
+      'https://ztapizhpkhbgxursjezd.supabase.co/storage/v1/object/public/marketing-site/step%201.mp4?t=2024-12-05T20%3A37%3A33.567Z',
   },
   {
     title: 'Mark tasks complete',
     description:
       'Watch your momentum towards success soar, all while staying focused and less stressed.',
     image:
-      'https://www.kaseya.com/wp-content/themes/kaseyacom/assets/svgs/truesync-edr-events.webm',
+      'https://ztapizhpkhbgxursjezd.supabase.co/storage/v1/object/public/marketing-site/step%201.mp4?t=2024-12-05T20%3A37%3A33.567Z',
   },
 ]
 
