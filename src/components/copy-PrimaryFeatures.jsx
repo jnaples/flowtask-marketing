@@ -28,7 +28,7 @@ const features = [
   {
     title: 'Enter focus mode',
     description:
-      'Toggle between seeing your entire list or focusing on just one task at a time, designed for an uninterrupted workflow.',
+      "Toggle between seeing your entire list or focusing on just one task at a time, designed for an uninterrupted workflow.",
     image: screenshotVatReturns,
   },
   {
@@ -135,9 +135,9 @@ export function PrimaryFeatures() {
                         {feature.description}
                       </p>
                     </div>
-                    <div className="mt-10 w-[45rem] overflow-hidden rounded-4xl bg-slate-200 px-14 py-16 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
+                    <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
                       <Image
-                        className="w-full rounded-xl shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10"
+                        className="w-full"
                         src={feature.image}
                         alt=""
                         priority
