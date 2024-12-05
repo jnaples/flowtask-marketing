@@ -20,7 +20,7 @@ const features = [
     description:
       'Easily input tasks, from quick to-dos to important work projects, all in one place by clicking the plug sign.',
     image:
-      'https://www.kaseya.com/wp-content/themes/kaseyacom/assets/svgs/truesync-edr-events.webm',
+      'https://ztapizhpkhbgxursjezd.supabase.co/storage/v1/object/public/marketing-site/step%201%202k.mov',
   },
   {
     title: 'Organize your tasks',
