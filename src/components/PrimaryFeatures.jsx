@@ -7,6 +7,8 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/public/background-features.jpg'
+import backgroundImageCard from '@/public/background-faqs.jpg'
+
 import screenshotExpenses from '@/public/screenshots/expenses.png'
 import screenshotPayroll from '@/public/screenshots/payroll.png'
 import screenshotReporting from '@/public/screenshots/reporting.png'
@@ -17,25 +19,29 @@ const features = [
     title: 'Add your tasks',
     description:
       'Easily input tasks, from quick to-dos to important work projects, all in one place by clicking the plug sign.',
-    image: screenshotPayroll,
+    image:
+      'https://www.kaseya.com/wp-content/themes/kaseyacom/assets/svgs/truesync-edr-events.webm',
   },
   {
     title: 'Organize your tasks',
     description:
       'Rearrange your tasks by priority with a simple drag-and-drop interface to keep your focus in check.',
-    image: screenshotExpenses,
+    image:
+      'https://www.kaseya.com/wp-content/themes/kaseyacom/assets/svgs/truesync-edr-events.webm',
   },
   {
     title: 'Enter focus mode',
     description:
       'Toggle between seeing your entire list or focusing on just one task at a time, designed for an uninterrupted workflow.',
-    image: screenshotVatReturns,
+    image:
+      'https://www.kaseya.com/wp-content/themes/kaseyacom/assets/svgs/truesync-edr-events.webm',
   },
   {
     title: 'Mark tasks complete',
     description:
       'Watch your momentum towards success soar, all while staying focused and less stressed.',
-    image: screenshotReporting,
+    image:
+      'https://www.kaseya.com/wp-content/themes/kaseyacom/assets/svgs/truesync-edr-events.webm',
   },
 ]
 
@@ -135,13 +141,17 @@ export function PrimaryFeatures() {
                         {feature.description}
                       </p>
                     </div>
-                    <div className="mt-10 w-[45rem] overflow-hidden rounded-4xl bg-slate-200 px-14 py-16 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
-                      <Image
+                    <div className="relative mt-10 w-[45rem] overflow-hidden rounded-4xl bg-slate-200 px-14 py-16 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
+                      <video
                         className="w-full rounded-xl shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10"
                         src={feature.image}
-                        alt=""
+                        alt={feature.title}
                         priority
                         sizes="(min-width: 1024px) 67.8125rem, (min-width: 640px) 100vw, 45rem"
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
                       />
                     </div>
                   </TabPanel>
