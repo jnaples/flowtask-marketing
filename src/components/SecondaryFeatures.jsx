@@ -4,9 +4,9 @@ import { useId } from 'react'
 import { Tab, TabGroup, TabList } from '@headlessui/react'
 
 import { Container } from '@/components/Container'
-import screenshotContacts from '@/public/screenshots/contacts.png'
-import screenshotInventory from '@/public/screenshots/inventory.png'
-import screenshotProfitLoss from '@/public/screenshots/profit-loss.png'
+import screenshotContacts from '../../public/screenshots/contacts.png'
+import screenshotInventory from '../../public/screenshots/inventory.png'
+import screenshotProfitLoss from '../../public/screenshots/profit-loss.png'
 
 const features = [
   {

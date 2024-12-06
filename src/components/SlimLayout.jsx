@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import backgroundImage from '@/public/background-auth.jpg'
+import backgroundImage from '../../public/background-auth.jpg'
 
 export function SlimLayout({ children }) {
   return (

@@ -6,9 +6,9 @@ import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotContacts from '@/public/screenshots/contacts.png'
-import screenshotInventory from '@/public/screenshots/inventory.png'
-import screenshotProfitLoss from '@/public/screenshots/profit-loss.png'
+import screenshotContacts from '../../public/contacts.png'
+import screenshotInventory from '../../public/inventory.png'
+import screenshotProfitLoss from '../../public/profit-loss.png'
 
 const features = [
   {

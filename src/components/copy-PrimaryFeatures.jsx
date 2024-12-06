@@ -6,11 +6,11 @@ import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import backgroundImage from '@/public/background-features.jpg'
-import screenshotExpenses from '@/public/screenshots/expenses.png'
-import screenshotPayroll from '@/public/screenshots/payroll.png'
-import screenshotReporting from '@/public/screenshots/reporting.png'
-import screenshotVatReturns from '@/public/screenshots/vat-returns.png'
+import backgroundImage from '../../public/background-features.jpg'
+import screenshotExpenses from '../../public/screenshots/expenses.png'
+import screenshotPayroll from '../../public/screenshots/payroll.png'
+import screenshotReporting from '../../public/screenshots/reporting.png'
+import screenshotVatReturns from '../../public/screenshots/vat-returns.png'
 
 const features = [
   {
@@ -28,7 +28,7 @@ const features = [
   {
     title: 'Enter focus mode',
     description:
-      "Toggle between seeing your entire list or focusing on just one task at a time, designed for an uninterrupted workflow.",
+      'Toggle between seeing your entire list or focusing on just one task at a time, designed for an uninterrupted workflow.',
     image: screenshotVatReturns,
   },
   {

@@ -2,12 +2,12 @@ import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import logoLaravel from '@/public/logos/laravel.svg'
-import logoMirage from '@/public/logos/mirage.svg'
-import logoStatamic from '@/public/logos/statamic.svg'
-import logoStaticKit from '@/public/logos/statickit.svg'
-import logoTransistor from '@/public/logos/transistor.svg'
-import logoTuple from '@/public/logos/tuple.svg'
+import logoLaravel from '../../public/logos/laravel.svg'
+import logoMirage from '../../public/logos/mirage.svg'
+import logoStatamic from '../../public/logos/statamic.svg'
+import logoStaticKit from '../../public/logos/statickit.svg'
+import logoTransistor from '../../public/logos/transistor.svg'
+import logoTuple from '../../public/logos/tuple.svg'
 
 export function Hero() {
   return (
