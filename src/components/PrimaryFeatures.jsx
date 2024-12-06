@@ -14,28 +14,28 @@ const features = [
     description:
       'Easily input tasks, from quick to-dos to important work projects, all in one place by clicking the plug sign.',
     image:
-      'https://ztapizhpkhbgxursjezd.supabase.co/storage/v1/object/public/marketing-site/step%201.mp4?t=2024-12-05T20%3A37%3A33.567Z',
+      'https://ztapizhpkhbgxursjezd.supabase.co/storage/v1/object/public/marketing-site/step%201.mp4?t=2024-12-06T21%3A13%3A47.673Z',
   },
   {
     title: 'Organize your tasks',
     description:
       'Rearrange your tasks by priority with a simple drag-and-drop interface to keep your focus in check.',
     image:
-      'https://ztapizhpkhbgxursjezd.supabase.co/storage/v1/object/public/marketing-site/step%201.mp4?t=2024-12-05T20%3A37%3A33.567Z',
+      'https://ztapizhpkhbgxursjezd.supabase.co/storage/v1/object/public/marketing-site/step%202.mp4?t=2024-12-06T20%3A15%3A34.741Z',
   },
   {
     title: 'Enter focus mode',
     description:
-      'Toggle between seeing your entire list or focusing on just one task at a time, designed for an uninterrupted workflow.',
+      'Toggle between seeing your entire list or focusing on just one task at a time, designed to give you monk-like focus.',
     image:
-      'https://ztapizhpkhbgxursjezd.supabase.co/storage/v1/object/public/marketing-site/step%201.mp4?t=2024-12-05T20%3A37%3A33.567Z',
+      'https://ztapizhpkhbgxursjezd.supabase.co/storage/v1/object/public/marketing-site/stpe%203.mp4?t=2024-12-06T20%3A52%3A20.808Z',
   },
   {
     title: 'Mark tasks complete',
     description:
       'Watch your momentum towards success soar, all while staying focused and less stressed.',
     image:
-      'https://ztapizhpkhbgxursjezd.supabase.co/storage/v1/object/public/marketing-site/step%201.mp4?t=2024-12-05T20%3A37%3A33.567Z',
+      'https://ztapizhpkhbgxursjezd.supabase.co/storage/v1/object/public/marketing-site/step%204.mp4?t=2024-12-06T21%3A05%3A23.371Z',
   },
 ]
 
