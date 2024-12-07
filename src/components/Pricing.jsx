@@ -114,7 +114,7 @@ export function Pricing() {
             Start today and see the difference.
             <br />
             $5/month or $48/year—cancel anytime. <br />
-            Risk-free, 30-day money-back guarantee.
+            Risk-free, 60-day money-back guarantee.
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-2 xl:mx-0 xl:gap-x-8">
@@ -122,11 +122,10 @@ export function Pricing() {
             name="Monthly plan"
             price="$5/month"
             description="Pay as you go."
-            href="/register"
+            href="https://buy.stripe.com/cN22bBfVy2aXeEU3ce"
             features={[
               'Focused workflow – Eliminate distractions',
               'Easy task management – Drag-and-drop organization',
-              'Track up to 15 expenses per month',
               'Customizable views – See one task at a time',
               'Built for productivity – Simple, calm interface',
               'Dark mode and light mode',
@@ -138,11 +137,10 @@ export function Pricing() {
             name="Yearly plan (save 20%)"
             price="$48/year"
             description="Pay once for the year and save big."
-            href="/register"
+            href="https://buy.stripe.com/eVabMb38M6rdbsI3cf"
             features={[
               'Focused workflow – Eliminate distractions',
               'Easy task management – Drag-and-drop organization',
-              'Track up to 15 expenses per month',
               'Customizable views – See one task at a time',
               'Built for productivity – Simple, calm interface',
               'Dark mode and light mode',

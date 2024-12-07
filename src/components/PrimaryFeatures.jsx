@@ -12,7 +12,7 @@ const features = [
   {
     title: 'Add your tasks',
     description:
-      'Easily input tasks, from quick to-dos to important work projects, all in one place by clicking the plug sign.',
+      'Easily input tasks, from quick to-dos to important work projects, all in one place by clicking the plus sign.',
     video: '/step-1.mp4',
   },
   {
