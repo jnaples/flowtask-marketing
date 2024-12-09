@@ -10,25 +10,25 @@ import backgroundImage from '../../public/background-features.jpg'
 
 const features = [
   {
-    title: 'Add your tasks',
+    title: '1.) Add your tasks',
     description:
       'Easily input tasks, from quick to-dos to important work projects, all in one place by clicking the plus sign.',
     video: '/step-1.mp4',
   },
   {
-    title: 'Organize your tasks',
+    title: '2.) Organize your tasks',
     description:
       'Rearrange your tasks by priority with a simple drag-and-drop interface to keep your focus in check.',
     video: '/step-2.mp4',
   },
   {
-    title: 'Discover focus mode',
+    title: '3.) Discover focus mode',
     description:
       'Toggle between seeing your entire list or focusing on just one task at a time, designed to give you monk-like focus.',
     video: '/step-3.mp4',
   },
   {
-    title: 'Mark tasks complete',
+    title: '4.) Mark tasks complete',
     description:
       'Watch your momentum towards success soar, all while staying focused and less stressed.',
     video: '/step-4.mp4',
