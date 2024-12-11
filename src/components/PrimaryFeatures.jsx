@@ -22,7 +22,7 @@ const features = [
     video: '/step-2.mp4',
   },
   {
-    title: '3.) Discover focus mode',
+    title: '3.) Unlock focus mode',
     description:
       'Toggle between seeing your entire list or focusing on just one task at a time, designed to give you monk-like focus.',
     video: '/step-3.mp4',
@@ -70,11 +70,11 @@ export function PrimaryFeatures() {
       <FluidContainer className="relative">
         <div className="flex max-w-3xl flex-col items-center text-center md:mx-auto">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            The only tool you need to work smarter and achieve more
+            Work smarter, stress-free and achieve more
           </h2>
           <p className="mt-6 max-w-2xl text-lg tracking-tight text-blue-100">
-            Say goodbye to chaos and hello to clarity. Get organized, stay
-            focused, and become the top performer you’re meant to be.
+            Ditch the chaos and welcome clarity with arms open. Get organized,
+            stay focused, and crush your workday with ease.
           </p>
         </div>
         <TabGroup

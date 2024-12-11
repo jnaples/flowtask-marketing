@@ -27,8 +27,8 @@ export function Hero() {
         </span>
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Discover your most productive self—easily prioritize your workday, stay
-        focused, and get more done with the #1 rated productivity app.
+        Say goodbye to overly complex tools. Unleash your fullest potential by
+        focusing on one task at a time with an app backed by neuroscience.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="#pricing">Get started today</Button>
