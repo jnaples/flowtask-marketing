@@ -70,11 +70,11 @@ export function PrimaryFeatures() {
       <FluidContainer className="relative">
         <div className="flex max-w-3xl flex-col items-center text-center md:mx-auto">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Work smarter, stress-free and achieve more
+            Easily work smarter, stress-free and achieve more
           </h2>
           <p className="mt-6 max-w-2xl text-lg tracking-tight text-blue-100">
-            Ditch the chaos and welcome clarity with arms open. Get organized,
-            stay focused, and crush your workday with ease.
+            Ditch the chaos of distraction and welcome clarity with arms open.
+            Get organized, stay focused, and crush your workday with ease.
           </p>
         </div>
         <TabGroup
