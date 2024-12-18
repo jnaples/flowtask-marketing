@@ -122,7 +122,8 @@ export function Pricing() {
             name="Monthly plan"
             price="$5/month"
             description="Pay as you go."
-            href="https://buy.stripe.com/cN22bBfVy2aXeEU3ce"
+            href="https://buy.stripe.com/test_aEU2aKai9bWodLGcMM"
+            // href="https://buy.stripe.com/cN22bBfVy2aXeEU3ce"
             features={[
               'Focused workflow – Eliminate distractions',
               'Easy task management – Drag-and-drop organization',
@@ -137,7 +138,8 @@ export function Pricing() {
             name="Yearly plan (save 20%)"
             price="$48/year"
             description="Pay once for the year and save big."
-            href="https://buy.stripe.com/eVabMb38M6rdbsI3cf"
+            href="https://buy.stripe.com/test_fZe4iSbmd8Kc0YUeUV"
+            // href="https://buy.stripe.com/eVabMb38M6rdbsI3cf"
             features={[
               'Focused workflow – Eliminate distractions',
               'Easy task management – Drag-and-drop organization',
