@@ -12,8 +12,8 @@ import logoTuple from '../../public/logos/tuple.svg'
 export function Hero() {
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-32">
-      <h1 className="mx-auto max-w-3xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
-        Finally a tool built just for{' '}
+      <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+        Work smarter not harder with{' '}
         <span className="relative whitespace-nowrap text-blue-600">
           <svg
             aria-hidden="true"
@@ -28,8 +28,8 @@ export function Hero() {
       </h1>
       <p className="mx-auto mt-6 max-w-3xl text-lg tracking-tight text-slate-700">
         Tired of juggling tasks and wasting time on distractions? Supercharge
-        your productivity, reduce stress and conquer your day by focusing on one
-        task at a time.
+        your productivity, reduce stress and conquer your day with the app that
+        helps you focus on one task at a time.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="#pricing">Get started today</Button>
