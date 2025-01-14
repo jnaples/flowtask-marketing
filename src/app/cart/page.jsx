@@ -24,7 +24,7 @@ export default function Home() {
       </div>
 
       <Elements
-        stripe={stripePromise}
+        // stripe={stripePromise}
         options={{
           mode: 'payment',
           amount: convertToSubcurrency(amount),
