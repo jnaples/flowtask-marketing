@@ -85,7 +85,7 @@ export function Header() {
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
             <Link href="#" aria-label="Home">
-              <Logo className="h-10 w-auto" />
+              <Logo className="w-34" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="#features">Features</NavLink>
@@ -98,7 +98,7 @@ export function Header() {
               <NavLink href="https://app.getflowtask.com/login">Log in</NavLink>
             </div>
             <Button href="#pricing" color="blue">
-              <span>
+              <span className="text-center">
                 Get started <span className="hidden lg:inline">today</span>
               </span>
             </Button>
