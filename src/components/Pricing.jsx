@@ -88,7 +88,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
         className="mt-8"
         aria-label={`Get started with the ${name} plan for ${price}`}
       >
-        Get started
+        Try it free for 14 days
       </Button>
     </section>
   )
@@ -113,8 +113,8 @@ export function Pricing() {
           <p className="mt-4 text-lg text-slate-400">
             Start today and see the difference.
             <br />
-            $5/month or $48/year—cancel anytime. <br />
-            Risk-free, 60-day money-back guarantee.
+            14 day free trial, no credit card required <br />
+            $5/month or $48/year—cancel anytime.
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-2 xl:mx-0 xl:gap-x-8">

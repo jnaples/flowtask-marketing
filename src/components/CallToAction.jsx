@@ -24,12 +24,10 @@ export function CallToAction() {
             Start achieving more today
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            It’s time to take back control of your day. Start single-tasking
-            today with FlowTask and experience less stress, more focus, and
-            better results in your work and life.
+            It’s time to take back control of your day. Flowtask is your little helper who forces you to focus on thing thing at a time, cut out distractions and sky-rocket productivity.
           </p>
           <Button href="#pricing" color="white" className="mt-10">
-            Get started now
+            Get started for free
           </Button>
         </div>
       </Container>
