@@ -70,7 +70,7 @@ export function PrimaryFeatures() {
       <FluidContainer className="relative">
         <div className="flex max-w-3xl flex-col items-center text-center md:mx-auto">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Free up more time in your day by working smarter not harder
+            A freelancers personal sidekick and best friend
           </h2>
           <p className="mt-6 max-w-2xl text-lg tracking-tight text-blue-100">
             As a freelancer, being our own boss has it perks but that also means
