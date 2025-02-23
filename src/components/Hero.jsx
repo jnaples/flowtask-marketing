@@ -27,7 +27,7 @@ export function Hero() {
         </span>
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Built for busy freelancers—Flowtask is like your little helper that cuts
+        Built for busy freelancers—FlowTask is like your little helper that cuts
         out distractions and busywork so you can get things done faster and more
         effectively, freeing up more time in your day.
       </p>

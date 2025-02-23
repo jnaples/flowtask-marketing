@@ -154,14 +154,14 @@ export function SecondaryFeatures() {
       className="py-20 pb-14 sm:pb-20 sm:pt-32 lg:pb-32"
     >
       <Container>
-        <div className="mx-auto max-w-2xl md:text-center">
+        <div className="mx-auto max-w-4xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Uncover the secret to success
+            Uncover the secret to success: built on digital minimalism and
+            single-tasking principles
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
-            FlowTask allows you to focus on one thing, do it better, and
-            sky-rocket your productivity because multitasking is just another
-            word for distraction.
+          <p className="mx-auto mt-4 max-w-2xl text-lg tracking-tight text-slate-700">
+            Focus on one thing, do it better, and sky-rocket your productivity
+            because multitasking is just another word for distraction.
           </p>
         </div>
         <FeaturesDesktop />

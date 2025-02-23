@@ -19,15 +19,21 @@ export function CallToAction() {
         unoptimized
       />
       <Container className="relative">
-        <div className="mx-auto max-w-lg text-center">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Start achieving more today
+        <div className="mx-auto max-w-3xl text-center">
+          <h2 className="mx-auto max-w-xl font-display text-3xl tracking-tight text-white sm:text-4xl">
+            Designed to keep you focused in a distracted world
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            It’s time to take back control of your day. Flowtask is your little helper who forces you to focus on thing thing at a time, cut out distractions and sky-rocket productivity.
+            FlowTask is built around a simple yet powerful principle: focus on
+            one task at a time.
+          </p>
+          <p className="mt-4 mx-auto max-w-2xl text-lg tracking-tight text-white">
+            Unlike traditional to-do lists that bombard you with endless items,
+            FlowTask keeps you locked in on the single most important task at
+            hand.
           </p>
           <Button href="#pricing" color="white" className="mt-10">
-            Get started for free
+            Try today for free
           </Button>
         </div>
       </Container>

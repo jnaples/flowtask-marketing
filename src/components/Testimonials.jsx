@@ -87,14 +87,14 @@ export function Testimonials() {
       className="bg-slate-50 py-20 sm:py-32"
     >
       <Container>
-        <div className="mx-auto max-w-2xl md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
+        <div className="mx-auto max-w-3xl md:text-center">
+          <h2 className="mx-auto max-w-2xl font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
             How busy freelancers are getting more done in less time
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Discover how FlowTask is helping others like you simplify their work
-            day,self-manage the most important tasks, and finish projects
-            faster.
+            Discover how FlowTask is making waves in the freelance community and
+            helping others like you simplify their work day, finish projects
+            faster and reclaim more freedom.
           </p>
         </div>
         <ul

@@ -72,15 +72,13 @@ export function PrimaryFeatures() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
             A freelancers personal sidekick and best friend
           </h2>
-          <p className="mt-6 max-w-2xl text-lg tracking-tight text-blue-100">
-            As a freelancer, being our own boss has it perks but that also means
-            we have to manage our day effectively. Ditch the chaos of
-            distraction and welcome clarity with arms open. Get organized, stay
-            focused, and crush your workday with ease.
+          <p className="mt-6 max-w-3xl text-lg tracking-tight text-blue-100">
+            Being your own boss has its perks, but it also means having to
+            self-manage your day effectively which can be tough when juggling
+            multiple projects and client demands.
           </p>
-          <p className="mt-6 max-w-2xl text-lg tracking-tight text-blue-100">
-            Ditch the chaos of distraction and welcome clarity with arms open.
-            Get organized, stay focused, and crush your workday with ease.
+          <p className="mt-6 max-w-3xl text-lg tracking-tight text-blue-100">
+            Flowtask helps you gain stress-free, laser-focus with ease by keeping track of all your tasks, setting the most urgent, and hiding the rest until that one is complete.
           </p>
         </div>
         <TabGroup

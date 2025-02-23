@@ -104,14 +104,14 @@ export function Pricing() {
       <Container>
         <div className="mx-auto max-w-3xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Ready to achieve{' '}
+            Ready to get more done{' '}
             <span className="relative whitespace-nowrap">
               <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-600" />
-              <span className="relative">big results?</span>
+              <span className="relative">in less time?</span>
             </span>
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            Start today and see the difference.
+            Start today and immediately see the difference.
             <br />
             14 day free trial, no credit card required <br />
             $5/month or $48/year—cancel anytime.
