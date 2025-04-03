@@ -70,15 +70,14 @@ export function PrimaryFeatures() {
       <FluidContainer className="relative">
         <div className="flex max-w-3xl flex-col items-center text-center md:mx-auto">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            A freelancers personal sidekick and best friend
+            Your personal sidekick to keep you on track and focused
           </h2>
           <p className="mt-6 max-w-3xl text-lg tracking-tight text-blue-100">
-            Being your own boss has its perks, but it also means having to
-            self-manage your day effectively which can be tough when juggling
-            multiple projects and client demands.
+            Let&rsquo;s face it, having to self-manage your day effectively in today&rsquo;s world can be a tough with constant distractions and dopamine hits tugging at our sleeve.
           </p>
           <p className="mt-6 max-w-3xl text-lg tracking-tight text-blue-100">
-            Flowtask helps you gain stress-free, laser-focus with ease by keeping track of all your tasks, setting the most urgent, and hiding the rest until that one is complete.
+            Flowtask helps you gain stress-free, laser-focus with ease by
+            keeping track of all your tasks, prioritizing the most urgent, and only showing you one at a time until that task is complete.
           </p>
         </div>
         <TabGroup

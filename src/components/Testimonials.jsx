@@ -12,19 +12,19 @@ const testimonials = [
   [
     {
       content:
-        'Freelancing means juggling multiple projects at once, and I used to feel like I was drowning. FlowTask helps me lock in on one project at a time, and now I deliver better work faster.',
+        'Our team moves fast and is usually trying to do everything at once. FlowTask helped us focus on one campaign at a time. My team’s results have improved, and I’m hitting deadlines without feeling overwhelmed.',
       author: {
         name: 'Emily Wilkinson',
-        role: 'Freelance Copywriter',
+        role: 'Marketing Director',
         image: avatarImage1,
       },
     },
     {
       content:
-        'Designing for multiple clients at once was a mess—jumping between projects left me scattered. Now, I focus on one design at a time, and my creativity has never been sharper.',
+        'Switching to single-tasking changed everything. I can focus on one design at a time, which has made my projects cleaner and more efficient.',
       author: {
-        name: 'Jake Kemble',
-        role: 'Freelance Graphic Designer',
+        name: 'Michelle Blanch',
+        role: 'UX Designer',
         image: avatarImage4,
       },
     },
@@ -32,19 +32,19 @@ const testimonials = [
   [
     {
       content:
-        'I was usually overwhelmed bouncing between client web designs, making slow progress. Now, my focus is sharp, I work on the most urgent tasks of the day with zero distractions.',
+        "I was usually overwhelmed with our team's task management software and juggling a million projects at once. Now, I complete each project faster with zero distractions.",
       author: {
         name: 'Andrew Zhang',
-        role: 'Freelance Web Designer',
+        role: 'Software Engineer',
         image: avatarImage5,
       },
     },
     {
       content:
-        "Single-tasking changed the way I work. Instead of switching between ad campaigns all day, I give each one my full focus. I'm able to knock out my work in a few hours and have the rest of the day to myself.",
+        'FlowTask helped me stop multitasking during my workday. I now prioritize one thing at a time, making me more present, focused, and a top performer.',
       author: {
         name: 'Shawn Dosal',
-        role: 'Freelance Digital Marketer',
+        role: 'VP of Sales',
         image: avatarImage2,
       },
     },
@@ -52,16 +52,16 @@ const testimonials = [
   [
     {
       content:
-        'Managing multiple client demands can feel overwhelming. FlowTask keeps me locked in on the most important task, and I finally feel in control of my day.',
+        'As a CEO, managing a ton of things was draining. Now, I focus on one thing at a time, and it’s been a game-changer for my productivity.',
       author: {
-        name: 'Benjamin Jennes',
-        role: 'Freelance Dev',
+        name: 'Brandon Jennes',
+        role: 'CEO',
         image: avatarImage3,
       },
     },
     {
       content:
-        'I love the freedom—but I lacked structure. FlowTask helps me focus on what truly moves the needle, so I can work less and enjoy life more.',
+        'I love the freedom of a freelancer—but I lacked structure. FlowTask helps me focus on what truly moves the needle, so I can work less and enjoy life more.',
       author: {
         name: 'Brittany Daugherty',
         role: 'Freelance Web Designer',
@@ -89,12 +89,11 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-3xl md:text-center">
           <h2 className="mx-auto max-w-2xl font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            How busy freelancers are getting more done in less time
+            How super achievers are getting more done with less stress
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Discover how FlowTask is making waves in the freelance community and
-            helping others like you simplify their work day, finish projects
-            faster and reclaim more freedom.
+            Discover how FlowTask is helping others like you simplify their work
+            day, self-manage their workday, and finish projects faster.
           </p>
         </div>
         <ul
