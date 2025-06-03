@@ -68,17 +68,24 @@ export function PrimaryFeatures() {
         unoptimized
       />
       <FluidContainer className="relative">
-        <div className="flex max-w-3xl flex-col items-center text-center md:mx-auto">
+        <div className="flex max-w-4xl flex-col items-center text-center md:mx-auto">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Your personal sidekick to keep you on track and focused
+            No more chaotic multitasking.
+            <br />
+            Just clarity and effortless momentum.
           </h2>
-          <p className="mt-6 max-w-3xl text-lg tracking-tight text-blue-100">
-            Let&rsquo;s face it, having to self-manage your day effectively in today&rsquo;s world can be a tough with constant distractions and dopamine hits tugging at our sleeve.
-          </p>
-          <p className="mt-6 max-w-3xl text-lg tracking-tight text-blue-100">
-            Flowtask helps you gain stress-free, laser-focus with ease by
-            keeping track of all your tasks, prioritizing the most urgent, and only showing you one at a time until that task is complete.
-          </p>
+          <div className="max-w-3xl">
+            <p className="mt-6 max-w-3xl text-lg tracking-tight text-blue-100">
+              Let&rsquo;s face it, having to self-manage your day effectively in
+              today&rsquo;s world can be a tough with constant distractions and
+              dopamine hits tugging at our sleeve.
+            </p>
+            <p className="mt-6 max-w-3xl text-lg tracking-tight text-blue-100">
+              Flowtask helps you gain stress-free, laser-focus with ease by
+              keeping track of all your tasks, prioritizing the most urgent, and
+              only showing you one at a time until that task is complete.
+            </p>
+          </div>
         </div>
         <TabGroup
           className="ml-auto mt-16 grid grid-cols-1 items-center gap-y-2 pt-10 sm:gap-y-6 md:mt-20 lg:max-w-[90%] lg:grid-cols-12 lg:pt-0"

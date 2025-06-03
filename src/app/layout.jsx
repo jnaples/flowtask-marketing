@@ -51,7 +51,7 @@ export default function RootLayout({ children }) {
             `,
         }}
       />
-      <meta name="theme-color" content="#3B81F6" />
+      <meta name="theme-color" content="#2563eb" />
       <body className="flex h-full flex-col">{children}</body>
     </html>
   )
