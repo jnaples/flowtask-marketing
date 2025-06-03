@@ -80,7 +80,7 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="py-10">
+    <header className="py-6">
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
@@ -93,7 +93,7 @@ export function Header() {
               <NavLink href="#pricing">Pricing</NavLink>
             </div>
           </div>
-          <div className="flex items-center gap-x-5 md:gap-x-8">
+          <div className="flex items-center gap-x-5 md:gap-x-4">
             <div className="hidden md:block">
               <NavLink href="https://app.getflowtask.com/login">
                 Sign in
