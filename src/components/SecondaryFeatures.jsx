@@ -156,7 +156,7 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-3xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Uncover the secret to success: built on proven, scientific
+            Uncover the secret to success—built on proven, scientific
             principles
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg tracking-tight text-slate-700">
