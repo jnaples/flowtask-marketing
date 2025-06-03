@@ -100,9 +100,7 @@ export function Header() {
               </NavLink>
             </div>
             <Button href="#pricing" color="blue">
-              <span className="text-center">
-                Get started <span className="hidden lg:inline">today</span>
-              </span>
+              <span className="text-center">Free trial</span>
             </Button>
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
