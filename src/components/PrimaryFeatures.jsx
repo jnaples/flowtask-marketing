@@ -69,7 +69,7 @@ export function PrimaryFeatures() {
       />
       <FluidContainer className="relative">
         <div className="flex max-w-4xl flex-col items-center text-center md:mx-auto">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
+          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             No more chaotic multitasking.
             <br />
             Just clarity and effortless momentum.
