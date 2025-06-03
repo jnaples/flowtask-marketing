@@ -22,7 +22,7 @@ export function Hero() {
         Boost productivity up to 40% with single-tasking{' '}
         <ArrowUpRightIcon className="hidden h-4 w-4 text-current md:block" />
       </Button>
-      <h1 className="mx-auto max-w-5xl font-display text-4xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+      <h1 className="mx-auto max-w-5xl font-display text-4xl font-medium leading-tight tracking-tight text-slate-900 sm:text-7xl">
         The fastest way
         <br />
         to{' '}
